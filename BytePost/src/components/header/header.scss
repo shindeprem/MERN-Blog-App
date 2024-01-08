@@ -1,0 +1,85 @@
+.header-container{
+    padding: 13px 13px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.055);
+
+    .nav-container{
+        padding: 5px;
+        max-width: 1600px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .nav-1{
+            display: flex;
+            align-items: center;
+            column-gap: 20px;
+
+            .website-logo{
+                font-size: 26px;
+
+                span{
+                    color: red;
+                }
+            }
+            .search-input-container{
+                padding: 7px 10px;
+                display: flex;
+                column-gap: 5px;
+                align-items: center;
+                width: max-content;
+                background-color: rgba(0, 0, 0, 0.055);
+                border-radius: 20px;
+
+                .search-logo-container{
+                    display: flex;
+                    align-items: center;
+                    font-size: 18px;
+                }
+
+                .search-input{
+                    border: none;
+                    outline: none;
+                    padding: 5px;
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: black;
+                    background-color: transparent;
+                    max-width: 270px;
+                    width: 100%;
+
+                    &::placeholder{
+                        color: rgba(0, 0, 0, 0.850);
+                    }
+                }
+            }
+        }
+
+        .nav-2{
+            display: flex;
+            align-items: center;
+            .scnd-nav{
+                display: flex;
+                align-items: center;
+                column-gap: 1rem;
+                .write-to-signinup{
+                    font-size: 25px;
+                    display: flex;
+                    align-items: center;
+                    column-gap: 3px;
+
+                    span{
+                        font-size: 18px;
+                    }
+                }
+
+                .more-items-nav2{
+                    display: flex;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

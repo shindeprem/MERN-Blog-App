@@ -1,0 +1,83 @@
+.header-container {
+  padding: 13px 13px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.055);
+}
+.header-container .nav-container {
+  padding: 5px;
+  max-width: 1600px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header-container .nav-container .nav-1 {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+.header-container .nav-container .nav-1 .website-logo {
+  font-size: 26px;
+}
+.header-container .nav-container .nav-1 .website-logo span {
+  color: red;
+}
+.header-container .nav-container .nav-1 .search-input-container {
+  padding: 7px 10px;
+  display: flex;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  align-items: center;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: rgba(0, 0, 0, 0.055);
+  border-radius: 20px;
+}
+.header-container .nav-container .nav-1 .search-input-container .search-logo-container {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.header-container .nav-container .nav-1 .search-input-container .search-input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  background-color: transparent;
+  max-width: 270px;
+  width: 100%;
+}
+.header-container .nav-container .nav-1 .search-input-container .search-input::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.85);
+}
+.header-container .nav-container .nav-1 .search-input-container .search-input::placeholder {
+  color: rgba(0, 0, 0, 0.85);
+}
+.header-container .nav-container .nav-2 {
+  display: flex;
+  align-items: center;
+}
+.header-container .nav-container .nav-2 .scnd-nav {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+.header-container .nav-container .nav-2 .scnd-nav .write-to-signinup {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 3px;
+       column-gap: 3px;
+}
+.header-container .nav-container .nav-2 .scnd-nav .write-to-signinup span {
+  font-size: 18px;
+}
+.header-container .nav-container .nav-2 .scnd-nav .more-items-nav2 {
+  display: flex;
+  font-size: 18px;
+}/*# sourceMappingURL=header.css.map */
