@@ -73,9 +73,15 @@
   align-items: center;
   -moz-column-gap: 3px;
        column-gap: 3px;
+  padding: 5px 7px;
+  border-radius: 20px;
+  cursor: pointer;
 }
 .header-container .nav-container .nav-2 .scnd-nav .write-to-signinup span {
-  font-size: 18px;
+  font-size: 17px;
+}
+.header-container .nav-container .nav-2 .scnd-nav .write-to-signinup:hover {
+  background-color: rgba(0, 0, 0, 0.055);
 }
 .header-container .nav-container .nav-2 .scnd-nav .more-items-nav2 {
   display: flex;
