@@ -1,0 +1,45 @@
+.single-blg-pst {
+  display: flex;
+}
+.single-blg-pst .single-blg-pst-dets {
+  display: flex;
+  flex-direction: column;
+}
+.single-blg-pst .single-blg-pst-dets .blg-pst-header-section {
+  display: flex;
+  align-items: center;
+  width: -moz-max-content;
+  width: max-content;
+  -moz-column-gap: 0.6rem;
+       column-gap: 0.6rem;
+  margin-bottom: 7px;
+}
+.single-blg-pst .single-blg-pst-dets .blg-pst-header-section .admin-profile-pc {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 40px;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.single-blg-pst .single-blg-pst-dets .blg-pst-header-section .admin-profile-pc img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+.single-blg-pst .single-blg-pst-dets .blg-pst-header-section .admin-name-pc {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.single-blg-pst .single-blg-pst-dets .blg-pst-header-section .admin-date-pc {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: gray;
+}
+.single-blg-pst .single-blg-pst-dets .blg-pst-title-section {
+  font-size: 1.32rem;
+  font-weight: 700;
+}
+.single-blg-pst .single-blg-pst-poster {
+  border: 1px solid;
+}/*# sourceMappingURL=blogpost.css.map */

@@ -1,0 +1,47 @@
+.single-blg-pst{
+    display: flex;
+
+    .single-blg-pst-dets{
+        display: flex;
+        flex-direction: column;
+
+        .blg-pst-header-section{
+            display: flex;
+            align-items: center;
+            width: max-content;
+            column-gap: .6rem;
+            margin-bottom: 7px;
+
+            .admin-profile-pc{
+                object-fit: cover;
+                width: 40px;
+                display: flex;
+                border-radius: 20px;
+                overflow: hidden;
+
+                img{
+                    object-fit: cover;
+                    width: 100%;
+                }
+            }
+            .admin-name-pc{
+                font-size: 1rem;
+                font-weight: 700;
+            }
+
+            .admin-date-pc{
+                font-size: .8rem;font-weight: 600;
+                color: gray;
+            }
+        }
+
+        .blg-pst-title-section{
+            font-size: 1.32rem;
+            font-weight: 700;
+        }
+    }
+
+    .single-blg-pst-poster{
+        border: 1px solid;
+    }
+}
