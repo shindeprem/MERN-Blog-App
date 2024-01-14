@@ -2,9 +2,14 @@
 
     .main-page-listings{
         padding: 15px 7px;
-        border: 1px solid;
         max-width: 1200px;
         align-self: center;
+        place-items: center;
         margin: 0 auto;
+
+        .blg-pst-pls-trnd-pls-prf{
+            display: grid;
+            grid-template-columns: 59% 40%;
+        }
     }
 }
