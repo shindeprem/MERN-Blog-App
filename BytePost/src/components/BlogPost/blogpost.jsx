@@ -1,11 +1,20 @@
 import './blogpost.css';
 import img1 from '../../assets/Profile.jpg'
+import img2 from '../../assets/tech.jpg'
+// import 'aos/dist/aos.css';
+// import Aos from 'aos';
 
 const BlogPost = (blg)=>{
 
     const {name,date,title,description,category} = blg;
 
-    const shortDesc = description.slice(0,130);
+    // const shortDesc = description.slice(0,158);
+
+    // Aos.init({
+    //     duration: 800, 
+    //     easing: 'ease-in-out',
+    //     once: true 
+    //   });
 
     return(
         <div className="single-blg-pst">
@@ -25,14 +34,14 @@ const BlogPost = (blg)=>{
                     {title}
                 </div>
                 <div className="blg-pst-desc-section">
-                    {shortDesc}...
+                    {description}
                 </div>
                 <div className="category-section">
                     {category}
                 </div>
             </div>
             <div className="single-blg-pst-poster">
-                
+                <img src={img2} alt="" />
             </div>
         </div>
         

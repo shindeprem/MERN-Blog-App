@@ -1,5 +1,10 @@
 .single-blg-pst{
-    display: flex;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    border-top: 1px solid rgba(128, 128, 128, 0.200);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.200);
+    width: 100%;
+    padding: 1rem 0;
 
     .single-blg-pst-dets{
         display: flex;
@@ -10,7 +15,7 @@
             align-items: center;
             width: max-content;
             column-gap: .6rem;
-            margin-bottom: 7px;
+            margin-bottom: 8px;
 
             .admin-profile-pc{
                 object-fit: cover;
@@ -18,6 +23,7 @@
                 display: flex;
                 border-radius: 20px;
                 overflow: hidden;
+                cursor: pointer;
 
                 img{
                     object-fit: cover;
@@ -27,6 +33,7 @@
             .admin-name-pc{
                 font-size: 1rem;
                 font-weight: 700;
+                cursor: pointer;
             }
 
             .admin-date-pc{
@@ -36,12 +43,49 @@
         }
 
         .blg-pst-title-section{
-            font-size: 1.32rem;
+            font-size: 1.20rem;
             font-weight: 700;
+            display: inline-block;
+            word-break: break-all;
+            margin-bottom: .6rem;
+            cursor: pointer;
+            width: max-content;
+        }
+
+        .blg-pst-desc-section{
+            display: -webkit-box; 
+            -webkit-box-orient: vertical; 
+            -webkit-line-clamp: 2; 
+            overflow: hidden; 
+            text-overflow: ellipsis;
+            margin-bottom: 1.4rem;
+            cursor: pointer;
+        }
+
+        .category-section{
+            width: max-content;
+            cursor: pointer;
+            padding: 5px;
+            font-size: 14px;
+            font-weight: 500;
+            border-radius: 10px;
+            background-color: rgba(128, 128, 128, 0.068);
         }
     }
 
     .single-blg-pst-poster{
-        border: 1px solid;
+        height: 110px;
+        overflow: hidden;
+        display: flex;
+        object-fit: cover;
+        margin: auto auto;
+        width: 85%;
+        max-width: 170px;
+        cursor: pointer;
+
+        img{
+            object-fit: cover;
+            width: 100%;
+        }
     }
 }
