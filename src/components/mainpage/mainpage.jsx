@@ -1,6 +1,8 @@
 import React, { Suspense, useEffect, useState } from 'react'
 import './mainpage.css'
 import CategoryFilter from '../category-filters/CategoryFilter'
+import Trending from '../trending/trending'
+import TopBloggers from '../topbloggers/topbloggers'
 
 const BlogPost = React.lazy(()=>import('../BlogPost/blogpost'))
 
@@ -274,8 +276,12 @@ useEffect(() => {
                                 <CategoryFilter categoryList={categoryList} setCategoryList={setCategoryList}/>
                             </div>
                         </div>
-                        <div className="top-prf-container"></div>
-                        <div className="top-trnd-blgs"></div>
+                        <div className="top-prf-container">
+                          <TopBloggers/>
+                        </div>
+                        <div className="top-trnd-blgs">
+                          <Trending/>
+                        </div>
                     </div>
                 </div>
             </div>

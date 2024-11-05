@@ -1,0 +1,87 @@
+.top-bloggers-container{
+    display: flex;
+    padding: 20px 25px;
+    flex-direction: column;
+    row-gap: 1.3rem;
+
+    .top-blgrs-header{
+        font-size: 1.3rem;
+        width: max-content;
+        font-weight: 700;
+    }
+
+    .top-prfs-container{
+        .individual-prf-container{
+            box-sizing: border-box;
+            overflow: hidden;
+            display: flex;
+            margin-bottom: 1rem;
+            padding: 5px 5px;
+            box-sizing: border-box;
+            width: 80%;
+
+            .prf-img-container{
+                width: 45px;
+                height: 45px;
+                object-fit: cover;
+                border-radius: 40px;
+                margin-right: 8px;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+
+                img{
+                    object-fit: cover;
+                    width: 100%;
+                }
+            }
+
+            .prf-info-container{
+                display: flex;
+                flex-direction: column;
+                max-width: 200px;
+                row-gap: 3px;
+
+                .prf-name-container{
+                    font-size: 17px;
+                    font-weight: 600; 
+                    display: -webkit-box; 
+                    -webkit-box-orient: vertical; 
+                    -webkit-line-clamp: 1; 
+                    overflow: hidden; 
+                    text-overflow: ellipsis;
+                    cursor: pointer;
+                }
+
+                .prf-bio-container{
+                    font-size: 15px;       
+                    display: -webkit-box; 
+                    cursor: pointer;
+                    -webkit-box-orient: vertical; 
+                    -webkit-line-clamp: 2; 
+                    overflow: hidden; 
+                    text-overflow: ellipsis;
+                }
+            }
+
+            .prf-follow-btn-container{
+                margin-left: auto;
+                margin-top: auto;
+                margin-bottom: auto;
+                
+                button{
+                    font-size: 14.5px;
+                    font-weight: 600;
+                    border-radius: 20px;
+                    padding: 7px 13px;
+                    cursor: pointer;
+                    border: 1px solid;
+                    outline: none;
+                    background-color: white;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.trnd-sec-container {
+  display: flex;
+  padding: 15px 25px;
+  flex-direction: column;
+  row-gap: 1.3rem;
+}
+.trnd-sec-container .trending-header-container {
+  font-size: 1.3rem;
+  width: -moz-max-content;
+  width: max-content;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+}
+.trnd-sec-container .trending-header-container .trending-icon {
+  color: rgb(38, 208, 38);
+}/*# sourceMappingURL=trending.css.map */
